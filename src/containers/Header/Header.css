@@ -1,2 +1,6 @@
 .header {
 }
+
+.header__logo img {
+  width: 125px;
+}
