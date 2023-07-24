@@ -3,6 +3,7 @@ import "./App.css";
 //containers
 import Header from "./containers/Header/Header";
 import Row from "./containers/Row/Row";
+import Categories from "./containers/Categories/Categories";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Row />
       </div>
+      <Categories />
     </div>
   );
 }
