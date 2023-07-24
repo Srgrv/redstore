@@ -1,4 +1,8 @@
 .container {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.container__header {
   max-width: 1300px;
   margin: auto;
   padding-left: 25px;

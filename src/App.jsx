@@ -7,8 +7,10 @@ import Row from "./containers/Row/Row";
 function App() {
   return (
     <div className="container">
-      <Header />
-      <Row />
+      <div className="container__header">
+        <Header />
+        <Row />
+      </div>
     </div>
   );
 }
