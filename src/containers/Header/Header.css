@@ -27,3 +27,8 @@
   color: #555;
   text-decoration: none;
 }
+
+.header__img {
+  width: 30px;
+  height: 30px;
+}

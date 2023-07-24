@@ -29,6 +29,8 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+
+      <img className="header__img" src="./images/cart.png" alt="cart" />
     </div>
   );
 };
