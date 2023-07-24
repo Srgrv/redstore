@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./containers/Header/Header";
 import Row from "./containers/Row/Row";
 import Categories from "./containers/Categories/Categories";
+import Products from "./containers/Products/Products";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Row />
       </div>
       <Categories />
+      <Products />
     </div>
   );
 }
