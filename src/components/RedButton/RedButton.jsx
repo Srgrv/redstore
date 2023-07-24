@@ -4,7 +4,11 @@ import React from "react";
 import "./RedButton.css";
 
 const RedButton = ({ text }) => {
-  return <a href="#f">{text} &#8594;</a>;
+  return (
+    <a className="redButton" href="#f">
+      {text} &#8594;
+    </a>
+  );
 };
 
 export default RedButton;
