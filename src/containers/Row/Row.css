@@ -28,6 +28,11 @@
   margin: 30px 0;
   border-radius: 30px;
   text-decoration: none;
+  transition: background 0.5s;
+}
+
+.row__col a:hover {
+  background: #563434;
 }
 
 .row__col img {
