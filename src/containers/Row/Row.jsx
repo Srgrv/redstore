@@ -3,6 +3,9 @@ import React from "react";
 //style
 import "./Row.css";
 
+//components
+import RedButton from "../../components/RedButton/RedButton";
+
 const Row = () => {
   return (
     <div className="row">
@@ -15,7 +18,7 @@ const Row = () => {
           Consistent <br />
           hard work gains succes. Greatness will come.
         </p>
-        <a href="#3">Explore Now &#8594;</a>
+        <RedButton text="Explore Now" />
       </div>
       <div className="row__col">
         <img src="../../images/image1.png" alt="image1" />
