@@ -23,34 +23,6 @@
 
 .products__row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.products__row-col {
-  flex-basis: 25%;
-  padding: 10px;
-  min-width: 200px;
-  margin-bottom: 50px;
-  transition: transform 0.5s;
-}
-
-.products__row-col:hover {
-  transform: translateY(-5px);
-}
-
-.products__row-col img {
-  width: 100%;
-}
-
-.products__row-col h4 {
-  color: #555;
-  font-weight: normal;
-}
-
-.products__row-col p {
-  font-size: 14px;
-}
-
-.rating {
-  color: #ff523b;
 }

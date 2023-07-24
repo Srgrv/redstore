@@ -8,62 +8,139 @@ import { ImStarHalf } from "react-icons/im";
 //style
 import "./Products.css";
 
+//components
+import Product from "../../components/Product/Product";
+
 const Products = () => {
   return (
     <div className="products">
       <div className="small-container">
         <h2 className="products__title">Featured Products</h2>
         <div className="products__row">
-          <div className="products__row-col">
-            <img src="./images/product-1.jpg" alt="product-1" />
-            <h4>Red Printed T-shirt</h4>
-            <div className="rating">
-              <ImStarFull />
-              <ImStarFull />
-              <ImStarFull />
-              <ImStarFull />
-              <ImStarEmpty />
-            </div>
-            <p>$50.00</p>
-          </div>
-          <div className="products__row-col">
-            <img src="./images/product-2.jpg" alt="product-2" />
-            <h4>Red Printed T-shirt</h4>
-            <div className="rating">
-              <ImStarFull />
-              <ImStarFull />
-              <ImStarFull />
-              <ImStarHalf />
-              <ImStarEmpty />
-            </div>
-            <p>$50.00</p>
-          </div>
-          <div className="products__row-col">
-            <img src="./images/product-3.jpg" alt="product-3" />
-            <h4>Red Printed T-shirt</h4>
-            <div className="rating">
-              <ImStarFull />
-              <ImStarFull />
-              <ImStarFull />
-              <ImStarEmpty />
-              <ImStarEmpty />
-            </div>
-            <p>$50.00</p>
-          </div>
-          <div className="products__row-col">
-            <img src="./images/product-4.jpg" alt="product-4" />
-            <h4>Red Printed T-shirt</h4>
-            <div className="rating">
-              <ImStarFull />
-              <ImStarFull />
-              <ImStarFull />
-              <ImStarFull />
-              <ImStarHalf />
-            </div>
-            <p>$50.00</p>
-          </div>
+          <Product
+            image="./images/product-1.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarEmpty />}
+            i4={<ImStarEmpty />}
+            i5={<ImStarEmpty />}
+            cost="50"
+          />
+          <Product
+            image="./images/product-2.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarFull />}
+            i4={<ImStarHalf />}
+            i5={<ImStarEmpty />}
+            cost="50"
+          />
+          <Product
+            image="./images/product-3.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarFull />}
+            i4={<ImStarEmpty />}
+            i5={<ImStarEmpty />}
+            cost="50"
+          />
+          <Product
+            image="./images/product-4.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarFull />}
+            i4={<ImStarFull />}
+            i5={<ImStarHalf />}
+            cost="50"
+          />
         </div>
         <h2 className="products__title">Latest Products</h2>
+        <div className="products__row">
+          <Product
+            image="./images/product-5.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarEmpty />}
+            i4={<ImStarEmpty />}
+            i5={<ImStarEmpty />}
+            cost="50"
+          />
+          <Product
+            image="./images/product-6.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarFull />}
+            i4={<ImStarHalf />}
+            i5={<ImStarEmpty />}
+            cost="50"
+          />
+          <Product
+            image="./images/product-7.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarFull />}
+            i4={<ImStarEmpty />}
+            i5={<ImStarEmpty />}
+            cost="50"
+          />
+          <Product
+            image="./images/product-8.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarFull />}
+            i4={<ImStarFull />}
+            i5={<ImStarHalf />}
+            cost="50"
+          />
+          <Product
+            image="./images/product-9.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarEmpty />}
+            i4={<ImStarEmpty />}
+            i5={<ImStarEmpty />}
+            cost="50"
+          />
+          <Product
+            image="./images/product-10.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarFull />}
+            i4={<ImStarHalf />}
+            i5={<ImStarEmpty />}
+            cost="50"
+          />
+          <Product
+            image="./images/product-11.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarFull />}
+            i4={<ImStarEmpty />}
+            i5={<ImStarEmpty />}
+            cost="50"
+          />
+          <Product
+            image="./images/product-12.jpg"
+            h4="Red Printed"
+            i1={<ImStarFull />}
+            i2={<ImStarFull />}
+            i3={<ImStarFull />}
+            i4={<ImStarFull />}
+            i5={<ImStarHalf />}
+            cost="50"
+          />
+        </div>
       </div>
     </div>
   );
