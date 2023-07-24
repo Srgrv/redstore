@@ -1,0 +1,28 @@
+.product {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+.product p {
+  font-size: 14px;
+}
+
+.rating {
+  color: #ff523b;
+}
