@@ -1,0 +1,10 @@
+.comments {
+  flex-basis: 25%;
+}
+
+.comments img {
+  width: 100%;
+}
+
+.comments__rating {
+}
