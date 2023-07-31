@@ -1,0 +1,24 @@
+.brands {
+  margin: 100px auto;
+}
+
+.brands__row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.brands__row-col {
+  width: 160px;
+}
+
+.brands__row-col img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+
+.brands__row-col img:hover {
+  filter: grayscale(0%);
+}

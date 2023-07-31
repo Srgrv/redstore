@@ -7,6 +7,7 @@ import Categories from "./containers/Categories/Categories";
 import Products from "./containers/Products/Products";
 import Offer from "./containers/Offer/Offer";
 import Testimonial from "./containers/Testimonial/Testimonial";
+import Brands from "./containers/Brands/Brands";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Products />
       <Offer />
       <Testimonial />
+      <Brands />
     </div>
   );
 }
