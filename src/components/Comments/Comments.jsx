@@ -9,9 +9,12 @@ import "./Comments.css";
 const Comments = ({ text, i1, i2, i3, i4, i5, src, name }) => {
   return (
     <div className="comments">
-      <BsQuote />
+      <span className="comments__quote">
+        <BsQuote />
+      </span>
+
       <p>{text}</p>
-      <div className="commments__rating">
+      <div className="comments__rating">
         {i1}
         {i2}
         {i3}
