@@ -1,0 +1,12 @@
+.testimonial__row {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .testimonial__row-col {
+  flex-basis: 25%;
+} */
+
+.testimonial__row-col img {
+  width: 100%;
+}

@@ -6,6 +6,7 @@ import Row from "./containers/Row/Row";
 import Categories from "./containers/Categories/Categories";
 import Products from "./containers/Products/Products";
 import Offer from "./containers/Offer/Offer";
+import Testimonial from "./containers/Testimonial/Testimonial";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Categories />
       <Products />
       <Offer />
+      <Testimonial />
     </div>
   );
 }
