@@ -1,4 +1,8 @@
 import "./App.css";
+import { Provider } from "react-redux";
+
+//store
+import store from "./store/store";
 
 //containers
 import Header from "./containers/Header/Header";
@@ -12,18 +16,20 @@ import Footer from "./containers/Footer/Footer";
 
 function App() {
   return (
-    <div className="container">
-      <div className="container__header">
-        <Header />
-        <Row />
+    <Provider store={store}>
+      <div className="container">
+        <div className="container__header">
+          <Header />
+          <Row />
+        </div>
+        <Categories />
+        <Products />
+        <Offer />
+        <Testimonial />
+        <Brands />
+        <Footer />
       </div>
-      <Categories />
-      <Products />
-      <Offer />
-      <Testimonial />
-      <Brands />
-      <Footer />
-    </div>
+    </Provider>
   );
 }
 
