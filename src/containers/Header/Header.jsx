@@ -31,6 +31,7 @@ const Header = () => {
       </nav>
 
       <img className="header__img" src="./images/cart.png" alt="cart" />
+      <img className="header__menuIcon" src="./images/menu.png" />
     </div>
   );
 };
