@@ -26,3 +26,10 @@
 .rating {
   color: #ff523b;
 }
+
+/* media query for less than 600 screen size */
+@media only screen and (max-width: 850px) {
+  .product {
+    flex-basis: 100%;
+  }
+}

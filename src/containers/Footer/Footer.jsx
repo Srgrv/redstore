@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__row">
-        <div className="footer__row-col1">
+        <div className="footer__row-col one">
           <h3>Download Our App</h3>
           <p>Download App for Android and IOS mobile phone.</p>
           <div>
@@ -15,14 +15,16 @@ const Footer = () => {
             <img src="./images/app-store.png" alt="app-store" />
           </div>
         </div>
-        <div className="footer__row-col2">
+
+        <div className="footer__row-col two">
           <img src="./images/logo-white.png" alt="logo-white" />
           <p>
             Our Purpose Is To Sustainably Make the Pleasure and Benefits of
             Sports Accessible to the Many.
           </p>
         </div>
-        <div className="footer__row-col3">
+
+        <div className="footer__row-col three">
           <h3>Useful Links</h3>
           <ul>
             <li>Coupons</li>
@@ -31,7 +33,7 @@ const Footer = () => {
             <li>Join Affiliate</li>
           </ul>
         </div>
-        <div className="footer__row-col4">
+        <div className="footer__row-col four">
           <h3>Follow us</h3>
           <ul>
             <li>Facebook</li>

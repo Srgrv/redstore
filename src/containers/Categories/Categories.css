@@ -16,3 +16,14 @@
 .categories__row-col img {
   width: 100%;
 }
+
+/* media query for less than 600 screen size */
+@media only screen and (max-width: 850px) {
+  .categories__row {
+    flex-wrap: wrap;
+  }
+
+  .categories__row-col {
+    flex-basis: 100%;
+  }
+}
