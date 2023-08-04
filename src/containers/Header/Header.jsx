@@ -23,10 +23,10 @@ const Header = () => {
       <nav className="header__nav">
         <ul className={menu_class}>
           <li>
-            <Link>Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link>Products</Link>
+            <Link to="products">Products</Link>
           </li>
           <li>
             <Link>About</Link>
@@ -45,6 +45,7 @@ const Header = () => {
         onClick={updateMenu}
         className="header__menuIcon"
         src="./images/menu.png"
+        alt="menu"
       />
     </div>
   );
