@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header__logo">
-        <img src="./images/logo.png" alt="logo" />
+        <img src="../../../logo.png" alt="logo" />
       </div>
       <nav className="header__nav">
         <ul className={menu_class}>
@@ -26,10 +26,10 @@ const Header = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="products">Products</Link>
+            <Link to="/products/1">Products</Link>
           </li>
           <li>
-            <Link>About</Link>
+            <Link to="/test">Test</Link>
           </li>
           <li>
             <Link>Contacts</Link>
@@ -40,11 +40,11 @@ const Header = () => {
         </ul>
       </nav>
 
-      <img className="header__img" src="./images/cart.png" alt="cart" />
+      <img className="header__img" src="../../../cart.png" alt="cart" />
       <img
         onClick={updateMenu}
         className="header__menuIcon"
-        src="./images/menu.png"
+        src="../../../menu.png"
         alt="menu"
       />
     </div>
