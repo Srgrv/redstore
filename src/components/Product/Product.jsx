@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //style
 import "./Product.css";
 
-const Product = ({ image, h4, i1, i2, i3, i4, i5, cost }) => {
+const Product = ({ image, h4, i1, i2, i3, i4, i5, cost, to }) => {
   return (
-    <div className="product">
+    <Link className="product" to={`${to}`}>
       <img src={image} alt="product" />
       <h4>{h4}</h4>
       <div className="rating">
@@ -16,7 +17,7 @@ const Product = ({ image, h4, i1, i2, i3, i4, i5, cost }) => {
         <>{i5}</>
       </div>
       <p>${cost}</p>
-    </div>
+    </Link>
   );
 };
 
