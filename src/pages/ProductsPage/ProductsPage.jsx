@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 //style
 import "./ProductsPage.css";
@@ -65,8 +66,8 @@ const ProductsPage = () => {
   }
 
   return (
-    <div className="productsPage">
-      <div className="productsPage__container ">
+    <div className="page-container">
+      <div className="no-small-container">
         <Header />
       </div>
 
@@ -96,6 +97,7 @@ const ProductsPage = () => {
             return (
               <Product
                 key={item.id}
+                to={item.id}
                 image={item.image}
                 h4={item.name}
                 i1={item.i1}
