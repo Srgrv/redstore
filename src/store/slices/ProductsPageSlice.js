@@ -19,7 +19,16 @@ const ProductsPageSlice = createSlice({
         i4: <ImStarHalf />,
         i5: <ImStarEmpty />,
         cost: "86",
+        description:
+          "Give your summer wardrobe a style upgrade with the HRX Men's Active T-Shirt. Team it with  a pair of shorts for your morning wourkout or a denims for an evening out with the guys",
+        smalls: [
+          { id: 1, small: "../../../gallery-1.jpg" },
+          { id: 2, small: "../../../gallery-2.jpg" },
+          { id: 3, small: "../../../gallery-3.jpg" },
+          { id: 4, small: "../../../gallery-4.jpg" },
+        ],
       },
+
       {
         id: 2,
         image: "../../../product-2.jpg",
