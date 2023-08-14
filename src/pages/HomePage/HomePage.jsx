@@ -14,7 +14,7 @@ import Row from "../../containers/Row/Row";
 
 const HomePage = () => {
   return (
-    <div className="homePage">
+    <div className="page-container">
       <div className="homePage__container">
         <Header />
         <Row />

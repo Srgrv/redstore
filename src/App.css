@@ -1,0 +1,16 @@
+.page-container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.no-small-container {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.small-container {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 1080px;
+  margin: auto;
+}

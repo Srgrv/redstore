@@ -1,18 +1,5 @@
-.homePage {
-  max-width: 1300px;
-  margin: auto;
-}
-
-.small-container {
-  padding-left: 25px;
-  padding-right: 25px;
-  max-width: 1080px;
-  margin: auto;
-}
-
 .homePage__container {
   background: radial-gradient(#fff, #ffd6d6);
-
   padding-left: 25px;
   padding-right: 25px;
 }
