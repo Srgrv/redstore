@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -53,7 +53,7 @@ const Pagination = ({ pageQty = 8, currentPage, setCurrentPage }) => {
   return (
     <div>
       <div className="pagination-container">
-        <span
+        <Link
           className={currentPage === 1 ? "disabled" : ""}
           onClick={() => {
             if (currentPage !== 1) {
@@ -62,21 +62,22 @@ const Pagination = ({ pageQty = 8, currentPage, setCurrentPage }) => {
           }}
         >
           Prev
-        </span>
+        </Link>
 
         {arrOfCurrButton.map((item, index) => {
           return (
-            <span
+            <Link
+              // to={`${item}`}
               key={index}
-              href="!#"
+              // href="!#"
               className={currentPage === item ? "active" : ""}
               onClick={() => setCurrentPage((page) => (page = item))}
             >
               {item}
-            </span>
+            </Link>
           );
         })}
-        <span
+        <Link
           onClick={() => {
             if (currentPage !== number.length) {
               setCurrentPage((item) => item + 1);
@@ -85,7 +86,7 @@ const Pagination = ({ pageQty = 8, currentPage, setCurrentPage }) => {
           className={currentPage === number.length ? "disabled" : ""}
         >
           Next
-        </span>
+        </Link>
       </div>
     </div>
   );
